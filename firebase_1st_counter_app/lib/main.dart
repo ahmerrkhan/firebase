@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
           builder: (context, snapshot){
             if(snapshot.hasError){
               print('Error have ${snapshot.error.toString()}');
-              return Text('Something wet wrong');
+              return Text('Something going wrong');
             }
             else if(snapshot.hasData){
               return MyHomePage(title: 'My Flutter 1 firebase');
