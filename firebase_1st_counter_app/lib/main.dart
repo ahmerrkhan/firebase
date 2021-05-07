@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
               return Text('Something wet wrong');
             }
             else if(snapshot.hasData){
-              return MyHomePage(title: 'My Flutter firebase');
+              return MyHomePage(title: 'My Flutter 1 firebase');
             }
             else {
               return Center(
