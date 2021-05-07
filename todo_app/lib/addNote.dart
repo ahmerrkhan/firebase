@@ -44,7 +44,7 @@ class _addNoteState extends State<addNote> {
             ),
 
             decoration: BoxDecoration(
-              color: Colors.grey[300],
+              color: Colors.grey[400],
               borderRadius: BorderRadius.circular(10.0),
               border: Border.all(),
             ),
