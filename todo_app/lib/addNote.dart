@@ -30,7 +30,7 @@ class _addNoteState extends State<addNote> {
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           SizedBox(
-            height: 10.0,
+            height: 12.0,
           ),
           Container(
             margin: EdgeInsets.all(10.0),
