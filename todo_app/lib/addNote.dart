@@ -21,7 +21,7 @@ class _addNoteState extends State<addNote> {
           FlatButton(
             child: Text(
               'Delete',
-              style: TextStyle(color: Colors.white, fontSize: 18.0),
+              style: TextStyle(color: Colors.white, fontSize: 20.0),
             ),
           ),
         ],
