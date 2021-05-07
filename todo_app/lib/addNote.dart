@@ -15,7 +15,7 @@ class _addNoteState extends State<addNote> {
           FlatButton(
             child: Text(
               'Save',
-              style: TextStyle(color: Colors.white, fontSize: 18.0),
+              style: TextStyle(color: Colors.white, fontSize: 19.0),
             ),
           ),
           FlatButton(
