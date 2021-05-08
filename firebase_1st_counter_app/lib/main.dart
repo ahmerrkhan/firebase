@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter firebase demo',
       theme: ThemeData(
 
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.blue[800],
 
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
