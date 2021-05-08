@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
             }
             else {
               return Center(
-                child: Text('Ok'),
+                child: Text('Okay'),
               );
             }
       })
