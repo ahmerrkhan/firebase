@@ -15,13 +15,13 @@ class _addNoteState extends State<addNote> {
           FlatButton(
             child: Text(
               'Save',
-              style: TextStyle(color: Colors.white, fontSize: 18.0),
+              style: TextStyle(color: Colors.white, fontSize: 19.0),
             ),
           ),
           FlatButton(
             child: Text(
               'Delete',
-              style: TextStyle(color: Colors.white, fontSize: 18.0),
+              style: TextStyle(color: Colors.white, fontSize: 20.0),
             ),
           ),
         ],
@@ -30,7 +30,7 @@ class _addNoteState extends State<addNote> {
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           SizedBox(
-            height: 10.0,
+            height: 12.0,
           ),
           Container(
             margin: EdgeInsets.all(10.0),
@@ -44,7 +44,7 @@ class _addNoteState extends State<addNote> {
             ),
 
             decoration: BoxDecoration(
-              color: Colors.grey[300],
+              color: Colors.grey[400],
               borderRadius: BorderRadius.circular(10.0),
               border: Border.all(),
             ),

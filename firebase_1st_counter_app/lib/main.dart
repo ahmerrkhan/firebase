@@ -11,14 +11,14 @@ Future<void> main() async{
 
 class MyApp extends StatelessWidget {
   final Future<FirebaseApp> _fbApp = Firebase.initializeApp();
-  // This widget is the root of your application.
+ 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter firebase demo',
       theme: ThemeData(
 
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.blue[800],
 
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
@@ -27,14 +27,14 @@ class MyApp extends StatelessWidget {
           builder: (context, snapshot){
             if(snapshot.hasError){
               print('Error have ${snapshot.error.toString()}');
-              return Text('Something wet wrong');
+              return Text('Something going went wrong');
             }
             else if(snapshot.hasData){
-              return MyHomePage(title: 'My Flutter firebase');
+              return MyHomePage(title: 'Flutter firebase 1 is updated');
             }
             else {
               return Center(
-                child: Text('Ok'),
+                child: Text('Okay'),
               );
             }
       })
